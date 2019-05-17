@@ -1,0 +1,6 @@
+<h1>OCTOMAN EMPIRE</h1>
+<ul>
+	<% @octopi.each do |o| %>
+		<li><%= link_to o.name, o %></li>
+	<% end %>
+</ul>

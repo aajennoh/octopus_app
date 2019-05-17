@@ -1,0 +1,8 @@
+<h3>Create a new octopus!</h3>
+<%= form_for @octopus do |f| %>
+	<%= f.label :'name:' %>
+	<%= f.text_field :name %><br/>
+	<%= f.label :'color:' %>
+	<%= f.text_field :color %><br/>
+	<%= f.submit %>
+<% end %>

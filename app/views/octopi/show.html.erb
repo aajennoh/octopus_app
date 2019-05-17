@@ -1,0 +1,10 @@
+<h3>Octopus Profile</h3>
+<h2>Name: <%= @octopus.name %></h2>
+
+<ul>
+	<li>Color: <%= @octopus.color %></li>
+</ul>
+
+
+<%= button_to "edit", edit_octopus_path, method: :get %>
+<%= button_to "Delete", octopus_path(@octopus), method: :delete %>
